@@ -1,0 +1,10 @@
+title: Your Name
+description: Personal website of Your Name.
+baseurl: /website   # served from github.io/website/; set to "" for a custom domain or a <user>.github.io repo
+permalink: /posts/:title/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]   # keep ' and " straight

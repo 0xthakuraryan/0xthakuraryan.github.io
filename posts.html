@@ -1,0 +1,20 @@
+---
+layout: default
+title: Posts
+permalink: /posts/
+---
+    <header>
+      <p class="muted"><a href="{{ '/' | relative_url }}">← home</a></p>
+      <div id="theme-toggle" class="themes"></div>
+      <h1>Posts</h1>
+    </header>
+
+    <ul class="posts">
+      {%- for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <time>{{ post.date | date: "%b %Y" }}</time>
+        <p class="muted">{{ post.summary }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
