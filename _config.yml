@@ -1,6 +1,6 @@
 title: Your Name
 description: Personal website of Your Name.
-baseurl: /website   # served from github.io/website/; set to "" for a custom domain or a <user>.github.io repo
+baseurl: ""   # served from the root of 0xthakuraryan.github.io
 permalink: /posts/:title/
 exclude:
   - Gemfile
