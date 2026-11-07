@@ -1,0 +1,15 @@
+{
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_drafts",
+  "attachmentFolderPath": "assets",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "_site/",
+    "_layouts/",
+    "_includes/",
+    ".jekyll-cache/"
+  ]
+}

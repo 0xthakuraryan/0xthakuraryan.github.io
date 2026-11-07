@@ -1,10 +1,11 @@
-title: Your Name
-description: Personal website of Your Name.
+title: Aryan Thakur
+description: Aryan's corner of the internet.
 baseurl: ""   # served from the root of 0xthakuraryan.github.io
 permalink: /posts/:title/
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - preview.sh
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]   # keep ' and " straight

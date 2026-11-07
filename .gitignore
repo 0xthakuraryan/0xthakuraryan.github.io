@@ -2,3 +2,5 @@ _site/
 .jekyll-cache/
 .sass-cache/
 Gemfile.lock
+.obsidian/workspace*.json
+_drafts/
